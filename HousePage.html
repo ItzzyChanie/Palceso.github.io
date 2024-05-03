@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Staybnb/House Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7d9564bbf7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav id="navBar" class="navBar-white">
+        <a href="index.php">
+            <img src="Images/logo.png" class="logo">
+        </a>
+        
+            <ul class="nav-links">
+                <li><a href="HomePage.php">Popular Places</a></li>
+                <li><a href="HousePage.html" class="active">Travel Outside</a></li>
+                <li><a href="ListingPage.html">Online Packages</a></li>
+                <li><a href="ContactUs.html">Contact Us</a></li>
+            </ul>
+                <a href="index.php" class="Signin-btn">Logout</a>
+            <i class="fa-solid fa-bars" onclick="togglebtn()"></i>
+    </nav>
+
+    <div class="house-details">
+        <div class="house-title">
+            <h1>Wenge House</h1>
+            <div class="row">
+                <div>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <span>245 Reviews</span>
+                </div>
+                <div>
+                    <p>Location: San Francisco, California, United States</p>
+                </div>
+            </div>
+        </div>
+        <div class="gallery">
+            <div class="gallery-img-1"><img src="Images/house-1.png"></div>
+            <div><img src="Images/house-2.png"></div>
+            <div><img src="Images/house-3.png"></div>
+            <div><img src="Images/house-4.png"></div>
+            <div><img src="Images/house-5.png"></div>
+        </div>
+        <div class="small-details">
+            <h2>Entire rental unit hosted by Jefferson</h2>
+            <p>2 guest &nbsp; &nbsp; 2 beds &nbsp; &nbsp; 1 bathroom</p>
+            <h4>$ 100 / day</h4>
+        </div>
+        <hr class="line">
+        <form class="check-form">
+            <div>
+                <label>Check-in</label>
+                <input type="text" placeholder="Add Date">
+            </div>
+            <div>
+                <label>Check-out</label>
+                <input type="text" placeholder="Add Date">
+            </div>
+            <div class="guest-field">
+                <label>Guest</label>
+                <input type="text" placeholder="2 guest">
+            </div>
+            <button type="submit">Check Availability</button>
+        </form>
+
+        <ul class="details-list">
+            <li><i class="fa-solid fa-house"></i>Entire Home
+                <span>You will have the entire flat for you.</span>
+            </li>
+            <li><i class="fa-solid fa-paintbrush"></i>Enhanced Clean
+                <span>This host has committed to staybnb's cleaning process.</span>
+            </li>
+            <li><i class="fa-solid fa-location-dot"></i>Great Location
+                <span>90% of recent guests gave the location a 5 star rating.</span>
+            </li>
+            <li><i class="fa-solid fa-heart"></i>Great Check-in Experience
+                <span>100% of recent guests gave the check-in process a 5 star rating.</span>
+            </li>
+        </ul>
+
+        <hr class="line">
+
+        <p class="home-desc">Guests will be allocated on the ground floor according to availability. 
+            You get a comfortable Two bedroom apartment has a true city feeling. 
+                The price quoted is for two guest, at the guest slot please mark 
+            the number of guests to get the exact price for groups.</p>
+            <hr class="line">
+
+            <div class="map">
+                <h3>Location on map</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7995252.215619947!2d118.45832126515435!3d11.
+                            909838476853775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x324053215f87de63%3A0x784790ef7a29da57!2sPhilippines!5e0!3m2!1sen!2sph!4v1714703641586!5m2!1sen!2sph"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                            loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <b>Philippines</b>
+                <p>It's like a home away from home.</p>
+            </div>
+
+            <hr class="line">
+
+            <div class="host">
+                <img src="Images/Jefferson2.jpg">
+                <div>
+                    <h2>Hosted by Jefferson</h2>
+                    <p><span>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </span>&nbsp; &nbsp; 245 Reviews &nbsp; &nbsp; response rate 100% &nbsp; &nbsp; Response time: 60 mins</p>
+                </div>
+            </div>
+            <a href="Contact.html" class="Contact-host">Contact Host</a>
+    </div>
+
+    <div class="pagination">
+        <img src="Images/arrow.png">
+        <span><a href="HomePage.php">1</a></span>
+        <span class="current">2</span>
+        <span><a href="ListingPage.html">3</a></span>
+        <img src="Images/arrow.png" class="right-arrow">
+    </div>
+
+        <div class="container">
+            <div class="footer">
+                <hr>
+                <div class="about-msg">
+            <h2>About Us</h2>
+            <p>This website is for School Purposes only and it was created by Jefferson Palecso, student of
+                Arellano University Juan Sumulong Campus. This website is only imitated from airbnb 
+                where they also offer houses, travel guides, and can be booked online.
+                It was started on January 24, 2024 and is currently running in this industry 
+                to continue to help many people not only in the same country but around the world.</p>
+        </div>
+            <br>
+                <a href="https:facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https:instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https:twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+            <br>
+            <br>
+            <br>
+                <p>Copyright © 2024, Staybnb.com</p>
+            </div>
+        </div>
+
+        <script>
+            var navBar = document.getElementById("navBar");
+            function togglebtn(){
+                navBar.classList.toggle("hidemenu");
+            }
+        </script>
+</body>
+</html>
